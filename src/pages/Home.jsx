@@ -4,17 +4,21 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="d-flex flex-column justify-content-around px-4  container flex-md-row">
-      <div className="d-flex flex-column align-items-start olaz px-4 py-4 m-0 mb-3">
-        <h1 style={{ fontSize: "45px" }} className="fw-bold m-0">
+    <div className="d-flex flex-column justify-content-around align-items-center px-4  container flex-md-row">
+      <div className="d-flex flex-column align-items-start olaz">
+        <h1 style={{ fontSize: "45px" }} className="fw-bold m-0 text-start mb-4">
           Manage your Tasks on{" "}
+          <span
+            style={{ color: "#974FD0", fontSize: "45px" }}
+            className="fw-bold"
+          >
+            Task Duty
+          </span>
         </h1>
-        <p style={{ color: "#974FD0", fontSize: "45px" }} className="fw-bold">
-          TaskDuty
-        </p>
+
         <p
           style={{ color: "#737171", fontSize: "24px" }}
-          className=" text-start"
+          className=" text-start mb-5"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem,
           eveniet, necessitatibus consequatur praesentium fuga esse animi, a qui
@@ -28,7 +32,7 @@ const Home = () => {
               color: "white",
               fontSize: "20px",
             }}
-            className="rounded-3 px-4 py-2  fw-bold border-0 "
+            className="rounded-1 px-5 py-2  fw-bold border-0 "
           >
             Go to My Tasks
           </button>
