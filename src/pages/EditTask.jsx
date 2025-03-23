@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import imageComponent from "./../assets/images/eva_arrow-ios-back-fill.png";
 import imageVector1 from "./../assets/images/Vector (1).png";
 import { useNavigate, useParams } from "react-router-dom";
-import Dropdown from "../components/Dropdown";
+// import Dropdown from "../components/Dropdown";
 import Dropdown1 from "../components/Dropdown1";
 import { useFetch } from "../hooks/useFetch";
 import toast from "react-hot-toast";
@@ -118,8 +118,8 @@ const EditTask = ({ baseURL }) => {
         </button>
       </form>
 
-      <a href="" style={{ color: "#974FD0" }}>
-        Back to Top
+      <a href="#" style={{ color: "#974FD0" }}>
+        Back To Top
       </a>
     </div>
   );

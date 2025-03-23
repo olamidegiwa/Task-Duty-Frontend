@@ -84,6 +84,9 @@ const Tasks = ({ baseURL }) => {
       {loading ? <p> Loading...</p> : null}
 
       {error ? <p>{error}</p> : null}
+      <div className="mt-5 mb-5">
+          <a href="#">Back To Top</a>
+        </div>
     </div>
   );
 };

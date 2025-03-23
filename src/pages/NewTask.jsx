@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import imageComponent from "./../assets/images/eva_arrow-ios-back-fill.png";
 import imageVector from "./../assets/images/Vector.png";
 import { useNavigate } from "react-router-dom";
-import Dropdown from "../components/Dropdown";
+// import Dropdown from "../components/Dropdown";
 import Dropdown1 from "../components/Dropdown1";
 import toast from "react-hot-toast";
 
